@@ -6,5 +6,9 @@ I converted and implemented this Extended Euclidean Algorithm in Racket during m
 ## Usage 
 Recommended to run this program on Racket's own IDE: DrRacket. 
 
-## To Use Calculator
-* call the ```(EEA-calculator EEA-list)``` function by passing a list of 2 lists of `x, y, q, r` values.
+## To Use the Calculator
+* call the ```(EEA-calculator EEA-list)``` function by passing a list of 2 lists of `x, y, q, r` values. 
+
+Example: 
+```(define my-list (list (list 1 0 1386 0) (list 0 1 322 0)))
+(EEA-calculator my-list)```
