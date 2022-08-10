@@ -44,8 +44,3 @@
 
 ;; q: int int -> int 
 (define (q r1 r2) (floor (/ r1 r2)))
-
-
-
-(define my-list (list (list 1 0 1386 0) (list 0 1 322 0)))
-(EEA-calculator my-list)
